@@ -4,4 +4,5 @@ Livytodo is a project launched to add a different dimension to to-do list applic
 
 Livytodo is a server-client architecture application that works independently of the operating system. Although it has a database dependency, the distributable version comes with an SQLite database.
 
+Our application, which has its own application framework, reaches the end user via HTML interface on the client side. Our application, whose business layer coding was developed with Python, simplifies the design of database applications with its additional functionalities.
 

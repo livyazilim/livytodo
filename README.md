@@ -24,6 +24,13 @@ Steps
 4. We create the Livyserver image, please run the following commands in terminal one by one
 5.   docker build . -t livytodo:livyserver -f docker-livytodo-livyserver.Dockerfile
 6.   docker run -p 25000:25000 --name livytodo.server -td livytodo:livyserver
+7. Now we create our Livyclient image, the commands we will run are
+8.   docker build . -t livytodo:livyclient -f docker-livytodo-livyclient.Dockerfile
+9.   docker run -p 80:80 --name livytodo.client -td livytodo:livyclient
+
+We have completed the installation, now all you have to do is open your browser and type localhost in the address bar.
+
+
 
 
 

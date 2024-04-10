@@ -16,6 +16,8 @@ Since Livytodo runs on a server and client infrastructure, configuring it requir
 
 While you can start using the images published on Docker Hub directly, you can easily create your docker image suitable for your system's architecture with our dockerfile files used in docker image production on github.
 
+We assume that docker is installed on your system, if not, you should download the application from the link https://www.docker.com/products/docker-desktop/ and install it on your system.
+
 Steps
 
 - Get Github livybuild folder

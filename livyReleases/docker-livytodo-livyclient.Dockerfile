@@ -9,7 +9,8 @@ RUN apt-get update && apt-get -y install unzip python3 apache2 apache2-utils mon
 
 #COPY.FILES
 WORKDIR /Livyframe
-COPY livyBuilds/livytodo-lin-livytodo.zip .
+ADD https://livyazilim.com/download/Livytodo-builds/livytodo-lin-livytodo.zip .
+#COPY livyBuilds/livytodo-lin-livytodo.zip .
 RUN unzip livytodo-lin-livytodo.zip -d livytodo-lin-livytodo && rm livytodo-lin-livytodo.zip
 COPY docker-livy-client-setup-file/livytodo-profile.ini /Livyframe/livytodo-lin-livytodo/livytodo_client/profile.ini
 RUN chmod 755 /Livyframe/livytodo-lin-livytodo/livytodo_client/profile.ini

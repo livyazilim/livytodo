@@ -10,4 +10,20 @@ We are starting to develop our most different and professional todo list applica
 
 You will be able to access our constantly updated application packages by following our page, we are already waiting for your contributions.
 
-# Installation (continued) ...
+# Installation 
+
+Since Livytodo runs on a server and client infrastructure, configuring it requires differentiation and technical knowledge in the context of the operating system. Since we do not want to burden you with this technical information, we thought it would be appropriate to offer livytodo in a container on Docker.
+
+While you can start using the images published on Docker Hub directly, you can easily create your docker image suitable for your system's architecture with our dockerfile files used in docker image production on github.
+
+Steps
+
+1. Get Github livybuild folder
+2. Open your operating system's terminal (ms-dos for windows, terminal or iterm for linux and mac)
+3. We will create 2 images, one is livyserver and the other is livyclient.
+4. We create the Livyserver image, please run the following commands in terminal one by one
+5.   docker build . -t livytodo:livyserver -f docker-livytodo-livyserver.Dockerfile
+6.   docker run -p 25000:25000 --name livytodo.server -td livytodo:livyserver
+
+
+

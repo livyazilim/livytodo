@@ -18,15 +18,15 @@ While you can start using the images published on Docker Hub directly, you can e
 
 Steps
 
-1. Get Github livybuild folder
-2. Open your operating system's terminal (ms-dos for windows, terminal or iterm for linux and mac)
-3. We will create 2 images, one is livyserver and the other is livyclient.
-4. We create the Livyserver image, please run the following commands in terminal one by one
-5.   docker build . -t livytodo:livyserver -f docker-livytodo-livyserver.Dockerfile
-6.   docker run -p 25000:25000 --name livytodo.server -td livytodo:livyserver
-7. Now we create our Livyclient image, the commands we will run are
-8.   docker build . -t livytodo:livyclient -f docker-livytodo-livyclient.Dockerfile
-9.   docker run -p 80:80 --name livytodo.client -td livytodo:livyclient
+- Get Github livybuild folder
+- Open your operating system's terminal (ms-dos for windows, terminal or iterm for linux and mac)
+- We will create 2 images, one is livyserver and the other is livyclient.
+- create the Livyserver image, please run the following commands in terminal one by one
+* ocker build . -t livytodo:livyserver -f docker-livytodo-livyserver.Dockerfile
+* docker run -p 25000:25000 --name livytodo.server -td livytodo:livyserver
+- Now we create our Livyclient image, the commands we will run are
+* docker build . -t livytodo:livyclient -f docker-livytodo-livyclient.Dockerfile
+* docker run -p 80:80 --name livytodo.client -td livytodo:livyclient
 
 We have completed the installation, now all you have to do is open your browser and type localhost in the address bar.
 

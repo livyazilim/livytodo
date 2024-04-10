@@ -14,9 +14,11 @@ You will be able to access our constantly updated application packages by follow
 
 Since Livytodo runs on a server and client infrastructure, configuring it requires differentiation and technical knowledge in the context of the operating system. Since we do not want to burden you with this technical information, we thought it would be appropriate to offer livytodo in a container on Docker.
 
+For those who don't know, Docker is an application that creates a virtual working environment in your operating system, allows the application to run in this environment, and does not impose any additional burden on your operating system for the application to run.
+
 While you can start using the images published on Docker Hub directly, you can easily create your docker image suitable for your system's architecture with our dockerfile files used in docker image production on github.
 
-We assume that docker is installed on your system, if not, you should download the application from the link [Docker_Download](https://www.docker.com/products/docker-desktop/) and install it on your system.
+We assume that docker is installed on your system, if not, you should download the application from the link [download-docker](https://www.docker.com/products/docker-desktop/) and install it on your system.
 
 Steps
 

@@ -26,7 +26,7 @@ Steps
 - Open your operating system's terminal (ms-dos for windows, terminal or iterm for linux and mac)
 - We will create 2 images, one is livyserver and the other is livyclient.
 - create the Livyserver image, please run the following commands in terminal one by one
-  * ocker build . -t livytodo:livyserver -f docker-livytodo-livyserver.Dockerfile
+  * docker build . -t livytodo:livyserver -f docker-livytodo-livyserver.Dockerfile
   * docker run -p 25000:25000 --name livytodo.server -td livytodo:livyserver
 - Now we create our Livyclient image, the commands we will run are
   * docker build . -t livytodo:livyclient -f docker-livytodo-livyclient.Dockerfile

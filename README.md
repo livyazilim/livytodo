@@ -40,8 +40,14 @@ Client and server applications have self-updating features. In order for the cli
 
 # Usage
 
+## Tested
+### Macos with ARM processor
+### Please report about the system you are running
+### Information mail is livytodo[at]livyazilim.com 
+
 ## Starting the Application
 
 It will be enough to open the web browser you are using and type localhost in the address bar.
+
 
 

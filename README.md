@@ -38,5 +38,10 @@ We have completed the installation, now all you have to do is open your browser 
 
 Client and server applications have self-updating features. In order for the client application (web server) to be updated, it is sufficient to stop and restart the docker container. The server application has the ability to be updated fully automatically. If the service in the Docker container detects that a new version of the application has been released, it will shut down, receive the update, and then restart.
 
+# Usage
+
+## Starting the Application
+
+It will be enough to open the web browser you are using and type localhost in the address bar.
 
 

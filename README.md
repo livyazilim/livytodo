@@ -41,7 +41,7 @@ Client and server applications have self-updating features. In order for the cli
 # Usage
 
 ## Tested
-- ![#c5f015]Macos with ARM processor`#c5f015`
+- `Macos with ARM processor#c5f015`
 Please report about the system you are running
 Information mail is livytodo[at]livyazilim.com 
 

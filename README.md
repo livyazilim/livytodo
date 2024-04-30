@@ -41,9 +41,9 @@ Client and server applications have self-updating features. In order for the cli
 # Usage
 
 ## Tested
-### Macos with ARM processor
-### Please report about the system you are running
-### Information mail is livytodo[at]livyazilim.com 
+- ![#c5f015]Macos with ARM processor`#c5f015`
+Please report about the system you are running
+Information mail is livytodo[at]livyazilim.com 
 
 ## Starting the Application
 
